@@ -9,6 +9,6 @@ var argv = yargs
   .demand(1)
   .help('h')
   .alias('h', 'help')
-  .epilog('Copyright (c) 2016 JDB All Rights Reserved.')
+  .epilog('Copyright (c) 2016 JDB Released Under MIT License')
   .argv;
 console.log(argv);
