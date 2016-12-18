@@ -2,7 +2,6 @@
 "use strict";
 
 var yargs = require('yargs');
-var pkg = require('./package.json');
 var argv = yargs
   .usage('Usage: deps <command>')
   .commandDir('lib/cmds')

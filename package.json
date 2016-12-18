@@ -5,8 +5,7 @@
   "main": "index.js",
   "bin":"cli.js",
   "scripts": {
-    "test": "echo \\\"Will make a test soon\\\" & exit 0",
-    "build": "npm link && ln -sf ~/.npm-packages/lib/node_modules/lazy-deps/index.js ~/.npm-packages/bin/deps "
+    "test": "echo \"Will make a test soon\" & exit 0"
   },
   "repository": {
     "type": "git",
